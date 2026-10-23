@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://senthilnathan.me/"><img src="https://img.shields.io/badge/Portfolio-senthilnathan.me-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/senthilnathan-mani-8a77a515/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://twitter.com/senthil96585044"><img src="https://img.shields.io/badge/X-@senthil96585044-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter"/></a>
   <a href="mailto:msnjsk@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
