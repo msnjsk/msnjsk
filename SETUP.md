@@ -60,9 +60,41 @@ The README already points to the SVG files on that `output` branch. Once the
 branch exists, the snake should appear on your profile. The workflow also runs
 daily and when you push to `main`.
 
-## 5. Optional: include private contributions in your profile graph
+## 5. If the snake looks empty
 
-Stats cards count public activity by default. To show private contribution
-counts on your GitHub profile, open **Settings → Public profile → Contributions**
-and turn on **Include private contributions**. This shows contribution counts,
-not private repository details.
+A successful workflow means the SVG files were published; it does not guarantee
+that there is contribution activity to draw. Check the contribution calendar
+on your GitHub profile. If it is empty, the snake may appear as only a few
+colored squares or look blank.
+
+GitHub only counts qualifying contributions. For commits, make sure the commit
+email address is connected to your GitHub account and that the commits are on
+the repository's default branch. For private activity in the snake, follow the
+next section, then run the workflow again. Changing the profile display setting
+alone does not update an already-generated SVG.
+
+## 6. Let the workflow read private contributions
+
+The profile setting and the workflow token do different things: **Include
+private contributions** controls what GitHub displays on your profile, while
+the workflow needs a token authenticated as your account to read that activity.
+The workflow uses `github.token` by default; add a personal access token if
+the generated snake still omits your private contributions.
+
+1. On GitHub, open **Settings → Developer settings → Personal access tokens →
+   Tokens (classic) → Generate new token (classic)**.
+2. Create a token with only the **`read:user`** scope. Copy it once and keep it
+   private. Never put the token in the workflow file or README.
+3. In the `msnjsk/msnjsk` repository, open **Settings → Secrets and variables
+   → Actions → New repository secret**.
+4. Name the secret `SNK_GITHUB_TOKEN`, paste the token as its value, and save.
+5. Make sure **Include private contributions** is enabled in your GitHub
+   profile settings.
+6. Add and push the updated `.github/workflows/snake.yml` from this project.
+   It is configured to use `SNK_GITHUB_TOKEN` when present and fall back to
+   GitHub's workflow token otherwise.
+7. Run **Generate contribution snake** again from the **Actions** tab. After
+   it succeeds, refresh your profile; the SVG may take a short time to update.
+
+Private contributions appear as counts only; this does not reveal private
+repository names or details.
