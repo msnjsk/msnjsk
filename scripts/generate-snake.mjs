@@ -16,7 +16,7 @@ if (!token) {
 const query = `
   query ($login: String!) {
     user(login: $login) {
-      contributionsCollection(includePrivateContributions: true) {
+      contributionsCollection {
         contributionCalendar {
           weeks {
             contributionDays {

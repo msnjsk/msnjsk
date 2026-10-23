@@ -49,9 +49,9 @@ to create and update that branch:
 
 ## 4. Add a token for private contribution counts
 
-The generator explicitly requests private contribution counts from GitHub.
-It needs a personal access token; the profile's **Include private
-contributions** setting by itself is not enough.
+The generator reads your contribution calendar with a personal access token for
+your own account, which lets GitHub include your private contribution counts.
+The profile's **Include private contributions** setting must also be enabled.
 
 1. Open **Settings → Developer settings → Personal access tokens → Tokens
    (classic) → Generate new token (classic)** on GitHub.
@@ -60,8 +60,7 @@ contributions** setting by itself is not enough.
 3. In the `msnjsk/msnjsk` repository, open **Settings → Secrets and variables
    → Actions → New repository secret**.
 4. Name the secret `SNK_GITHUB_TOKEN`, paste the token as its value, and save.
-5. In your GitHub profile settings, enable **Include private contributions** if
-   you also want private activity counts shown on your profile.
+5. In your GitHub profile settings, enable **Include private contributions**.
 
 The workflow uses this secret only to read your contribution calendar. It uses
 GitHub's workflow token to publish the generated SVGs.
