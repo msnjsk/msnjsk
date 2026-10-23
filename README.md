@@ -1,6 +1,6 @@
 <!-- ============ ANIMATED HEADER ============ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Senthilnathan%20Mani&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20%26%20AI%20Engineer%20%E2%80%A2%20Web%20%E2%80%A2%203D%20%E2%80%A2%20Ad%20Tech&descAlignY=58&descSize=18&animation=fadeIn" alt="Senthilnathan Mani — Full-Stack & AI Engineer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Senthilnathan%20Mani&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20%26%20AI%20Engineer%20%E2%80%A2%20Web%20%E2%80%A2%203D%20%E2%80%A2%20Ad%20Tech&descAlignY=58&descSize=18&animation=fadeIn&v=2" alt="Senthilnathan Mani — Full-Stack & AI Engineer" width="100%"/>
 </p>
 
 <p align="center">
