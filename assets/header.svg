@@ -7,14 +7,23 @@
     </linearGradient>
   </defs>
   <style>
-    .t { font: 700 52px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #fff; animation: fade 1.2s ease-in-out both; }
-    .d { font: 500 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #fff; animation: fade 1.2s ease-in-out both; }
-    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    .t { font: 700 52px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #fff; }
+    .d { font: 500 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #fff; }
+    .glow { animation: glow 4s ease-in-out infinite; }
+    @keyframes glow { 0%, 100% { opacity: 1; } 50% { opacity: 0.65; } }
   </style>
   <rect width="854" height="220" fill="url(#bg)"/>
-  <path fill="url(#bg)" opacity="0.5" d="M0 150Q213 190 427 160T854 175V220H0Z">
-    <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M0 150Q213 190 427 160T854 175V220H0Z;M0 175Q213 150 427 175T854 150V220H0Z;M0 150Q213 190 427 160T854 175V220H0Z"/>
+  <path fill="#38bdf8" opacity="0.25" d="M0 120Q213 70 427 120T854 120V220H0Z">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M0 120Q213 70 427 120T854 120V220H0Z;M0 120Q213 170 427 120T854 120V220H0Z;M0 120Q213 70 427 120T854 120V220H0Z"/>
   </path>
-  <text class="t" x="427" y="80" text-anchor="middle">Senthilnathan Mani</text>
-  <text class="d" x="427" y="128" text-anchor="middle">Full-Stack &amp; AI Engineer • Web • 3D • Ad Tech</text>
+  <path fill="#0ea5e9" opacity="0.3" d="M0 150Q213 190 427 150T854 150V220H0Z">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0 150Q213 190 427 150T854 150V220H0Z;M0 150Q213 110 427 150T854 150V220H0Z;M0 150Q213 190 427 150T854 150V220H0Z"/>
+  </path>
+  <path fill="#7dd3fc" opacity="0.2" d="M0 180Q213 150 427 180T854 180V220H0Z">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite" values="M0 180Q213 150 427 180T854 180V220H0Z;M0 180Q213 210 427 180T854 180V220H0Z;M0 180Q213 150 427 180T854 180V220H0Z"/>
+  </path>
+  <g class="glow">
+    <text class="t" x="427" y="85" text-anchor="middle">Senthilnathan Mani</text>
+    <text class="d" x="427" y="125" text-anchor="middle">Full-Stack &amp; AI Engineer • Web • 3D • Ad Tech</text>
+  </g>
 </svg>
