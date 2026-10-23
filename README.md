@@ -1,6 +1,6 @@
 <!-- ============ ANIMATED HEADER ============ -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/msnjsk/msnjsk/main/assets/header.svg" alt="Senthilnathan Mani — Full-Stack & AI Engineer" width="100%"/>
+  <img src="https://raw.githubusercontent.com/msnjsk/msnjsk/main/assets/header.svg?v=3" alt="Senthilnathan Mani — Full-Stack & AI Engineer" width="100%"/>
 </p>
 
 <p align="center">
