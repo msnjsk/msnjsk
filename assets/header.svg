@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 220" width="854" height="220" role="img" aria-label="Senthilnathan Mani - Full-Stack and AI Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t { font: 700 52px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #fff; animation: fade 1.2s ease-in-out both; }
+    .d { font: 500 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #fff; animation: fade 1.2s ease-in-out both; }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  </style>
+  <rect width="854" height="220" fill="url(#bg)"/>
+  <path fill="url(#bg)" opacity="0.5" d="M0 150Q213 190 427 160T854 175V220H0Z">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M0 150Q213 190 427 160T854 175V220H0Z;M0 175Q213 150 427 175T854 150V220H0Z;M0 150Q213 190 427 160T854 175V220H0Z"/>
+  </path>
+  <text class="t" x="427" y="80" text-anchor="middle">Senthilnathan Mani</text>
+  <text class="d" x="427" y="128" text-anchor="middle">Full-Stack &amp; AI Engineer • Web • 3D • Ad Tech</text>
+</svg>
